@@ -1,7 +1,7 @@
 {
   "Name": "azure-ai-projects",
-  "Version": "2.0.0-beta.2",
-  "DevVersion": null,
+  "Version": "2.0.0-alpha.20260316.1",
+  "DevVersion": "2.0.0-alpha.20260316.1",
   "DirectoryPath": "sdk/ai/azure-ai-projects",
   "ServiceDirectory": "ai",
   "ReadMePath": "sdk/ai/azure-ai-projects/README.md",
@@ -10,16 +10,16 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-ai-projects",
-  "ReleaseStatus": "2026-03-04",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "azureaiprojects",
-    "groupId": "com.azure",
     "triggeringPaths": [
       "/sdk/ai/ci.yml"
     ],
+    "groupId": "com.azure",
     "releaseInBatch": "${{ parameters.release_azureaiprojects }}",
+    "safeName": "azureaiprojects",
     "name": "azure-ai-projects"
   },
   "CIParameters": {
