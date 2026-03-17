@@ -1,7 +1,7 @@
 {
   "Name": "azure-developer-loadtesting",
-  "Version": "1.1.0-beta.1",
-  "DevVersion": null,
+  "Version": "1.2.0-alpha.20260317.2",
+  "DevVersion": "1.2.0-alpha.20260317.2",
   "DirectoryPath": "sdk/loadtesting/azure-developer-loadtesting",
   "ServiceDirectory": "loadtesting",
   "ReadMePath": "sdk/loadtesting/azure-developer-loadtesting/README.md",
@@ -10,14 +10,14 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-developer-loadtesting",
-  "ReleaseStatus": "2025-05-24",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "groupId": "com.azure",
-    "safeName": "azuredeveloperloadtesting",
-    "name": "azure-developer-loadtesting",
     "releaseInBatch": "${{ parameters.release_azuredeveloperloadtesting }}",
+    "name": "azure-developer-loadtesting",
+    "safeName": "azuredeveloperloadtesting",
+    "groupId": "com.azure",
     "triggeringPaths": [
       "/sdk/loadtesting/ci.yml"
     ]
@@ -25,6 +25,7 @@
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": "specification/loadtestservice/data-plane/loadtesting",
   "Namespaces": [
     "com.azure.developer.loadtesting",
     "com.azure.developer.loadtesting.models"
