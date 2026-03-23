@@ -357,6 +357,15 @@
     href: ~/docs-ref-services/{moniker}/batch.md
     landingPageType: Service
     items:
+    - name: Batch
+      href: ~/docs-ref-services/{moniker}/batch-readme.md
+      children:
+      - com.microsoft.azure.batch
+      - com.microsoft.azure.batch.auth
+      - com.microsoft.azure.batch.interceptor
+      - com.microsoft.azure.batch.protocol
+      - com.microsoft.azure.batch.protocol.implementation
+      - com.microsoft.azure.batch.protocol.models
     - name: Compute Batch
       href: ~/docs-ref-services/{moniker}/compute-batch-readme.md
       children:
@@ -1025,6 +1034,10 @@
       - name: Resource Management - Container Registry
         href: ~/docs-ref-services/{moniker}/resourcemanager-containerregistry-readme.md
         children:
+        - com.azure.resourcemanager.containerregistry
+        - com.azure.resourcemanager.containerregistry.fluent
+        - com.azure.resourcemanager.containerregistry.fluent.models
+        - com.azure.resourcemanager.containerregistry.models
         - com.azure.resourcemanager.containerregistry
         - com.azure.resourcemanager.containerregistry.fluent
         - com.azure.resourcemanager.containerregistry.fluent.models
@@ -2968,6 +2981,10 @@
         - com.azure.resourcemanager.netapp.fluent
         - com.azure.resourcemanager.netapp.fluent.models
         - com.azure.resourcemanager.netapp.models
+        - com.azure.resourcemanager.netapp
+        - com.azure.resourcemanager.netapp.fluent
+        - com.azure.resourcemanager.netapp.fluent.models
+        - com.azure.resourcemanager.netapp.models
   - name: Network
     href: ~/docs-ref-services/{moniker}/network.md
     landingPageType: Service
@@ -3048,10 +3065,6 @@
       - name: Resource Management - Nginx
         href: ~/docs-ref-services/{moniker}/resourcemanager-nginx-readme.md
         children:
-        - com.azure.resourcemanager.nginx
-        - com.azure.resourcemanager.nginx.fluent
-        - com.azure.resourcemanager.nginx.fluent.models
-        - com.azure.resourcemanager.nginx.models
         - com.azure.resourcemanager.nginx
         - com.azure.resourcemanager.nginx.fluent
         - com.azure.resourcemanager.nginx.fluent.models
